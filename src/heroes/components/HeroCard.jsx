@@ -1,12 +1,12 @@
 
 
 import { Link } from "react-router-dom";
+import '../../../src/styles.css';
 
 const CharactersByHero = ({ alter_ego, characters }) => {
   if(alter_ego === characters) return (<></>);
   return (<p>{ characters }</p>);
 }
-
 
 export const HeroCard = ({ id, superhero, publisher, alter_ego, first_appearance, characters }) => {
 
@@ -14,7 +14,7 @@ export const HeroCard = ({ id, superhero, publisher, alter_ego, first_appearance
 
   return (
     <div className="col animate__animated animate__fadeIn">
-      <div className="card">
+      <div className="card animate__animated">
 
         <div className="row no-gutter">
           <div className="col-4">
@@ -29,7 +29,7 @@ export const HeroCard = ({ id, superhero, publisher, alter_ego, first_appearance
                 <small className="text-muted">{ first_appearance }</small>
               </p>
               <Link to={`/hero/${id}`}>
-                Mas...
+                Más...
               </Link>
             </div>
           </div>

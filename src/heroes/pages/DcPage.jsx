@@ -4,7 +4,7 @@ import { HeroList } from '../components/HeroList';
 export const DcPage = () => {
   return (
     <>
-      <h1>DC Comics</h1>
+      <h2 className="text-center">DC Comics</h2>
       <HeroList publisher='DC Comics' />
     </>
   )

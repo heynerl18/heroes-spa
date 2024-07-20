@@ -24,14 +24,12 @@ export const SearchPage = () => {
 
   const onSearchSubmit = (event) => {
     event.preventDefault();
-    //if(searchText.trim().length <= 1) return;
     navigate(`?q=${searchText.toLowerCase()}`);
-
   }
 
   return (
     <>
-      <h1>Seach Page</h1>
+      <h2 className="text-center">Seach Page</h2>
       <hr />
       <div className="row">
         <div className="col-5">
@@ -48,7 +46,7 @@ export const SearchPage = () => {
               onChange={onInputChange}
             />
             <button
-              className="btn btn-outline-primary mt-1"
+              className="btn btn-outline-primary mt-2"
             >
               Search
             </button>
