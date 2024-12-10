@@ -1,8 +1,14 @@
-# React + Vite
+# Single Page Application (SPA)  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación diseñada para mostrar y buscar héroes de Marvel y DC.  
 
-Currently, two official plugins are available:
+## Características principales:  
+- **Múltiples Routers**: Navegación entre vistas utilizando enrutadores.  
+- **Historial Push y Replace**: Manejo del historial del navegador para navegación fluida.  
+- **Lectura de argumentos por URL**: Obtención de parámetros directamente desde la URL.  
+- **QueryParams**: Manejo de parámetros de consulta en las rutas.  
+- **Filtros mediante QueryStrings**: Aplicación de filtros dinámicos utilizando cadenas de consulta.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+¡Explora y encuentra a tus héroes favoritos de Marvel y DC de manera rápida y sencilla!  
+
+
