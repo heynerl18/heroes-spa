@@ -1,6 +1,6 @@
-# Single Page Application (SPA)  
+# Heroes App  
 
-Aplicación diseñada para mostrar y buscar héroes de Marvel y DC.  
+**Heroes App** es una Single Page Application (SPA) diseñada para mostrar y buscar héroes de Marvel y DC.
 
 ## Características principales:  
 - **Múltiples Routers**: Navegación entre vistas utilizando enrutadores.  
